@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashar Alo Lighting & Event Management</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:Poppins, sans-serif;background:#0b0b0f;color:#fff}
+    header{background:linear-gradient(135deg,#0f172a,#111827);padding:60px 20px;text-align:center}
+    header h1{color:gold;font-size:42px}
+    header p{margin-top:10px;color:#ccc}
+    nav{display:flex;justify-content:center;gap:20px;margin-top:20px}
+    nav a{color:#fff;text-decoration:none;font-size:14px}
+    .btn{display:inline-block;margin-top:20px;padding:12px 25px;background:gold;color:#000;border-radius:25px;text-decoration:none}
+    section{padding:60px 20px;text-align:center}
+    h2{margin-bottom:20px;color:gold}
+    .services,.gallery,.reviews{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+    .card{background:#111827;padding:20px;border-radius:15px;box-shadow:0 0 10px rgba(255,215,0,0.2)}
+    .gallery img{width:100%;border-radius:10px}
+    input,textarea{width:90%;padding:10px;margin:10px 0;border:none;border-radius:8px}
+    footer{background:#111;padding:20px;text-align:center;color:#aaa}
+  </style>
+</head>
+<body>
+
+<header>
+  <!-- Logo -->
+  <img src="logo.png" alt="Ashar Alo Logo" style="width:120px;margin-bottom:15px;">
+  <h1>আশার আলো</h1>
+  <p>Lighting & Event Management</p>
+  <p>Turning your dream events into reality ✨</p>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a href="https://wa.me/8801775069519" class="btn">WhatsApp Now</a>
+</header>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">💍 Wedding Decoration</div>
+    <div class="card">🎉 Birthday Setup</div>
+    <div class="card">💛 Mehendi / Holud Event</div>
+    <div class="card">💡 Lighting Design</div>
+    <div class="card">✨ Full Event Management</div>
+    <div class="card">💸 Budget Friendly Packages</div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>Our Work</h2>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/400x250">
+    <img src="https://via.placeholder.com/400x250">
+    <img src="https://via.placeholder.com/400x250">
+    <img src="https://via.placeholder.com/400x250">
+  </div>
+</section>
+
+<section id="reviews">
+  <h2>Client Reviews</h2>
+  <div class="reviews">
+    <div class="card">"Amazing decoration! Highly recommended" ⭐⭐⭐⭐⭐</div>
+    <div class="card">"Very professional and friendly team" ⭐⭐⭐⭐⭐</div>
+    <div class="card">"Made our wedding unforgettable" ⭐⭐⭐⭐⭐</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Book Your Event</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required><br>
+    <input type="text" placeholder="Event Type" required><br>
+    <textarea placeholder="Event Details"></textarea><br>
+    <button class="btn">Submit</button>
+  </form>
+  <p>📞 01775069519</p>
+  <p>📍 Dhaka, Bangladesh</p>
+</section>
+
+<footer>
+  <p>© 2026 Ashar Alo Lighting & Event Management</p>
+</footer>
+
+</body>
+</html>
